@@ -1,0 +1,64 @@
+/* CSS Document */
+
+header {
+	background-color:  rgb(248, 132, 180);
+	color: rgb(51, 10, 17);
+}
+
+body {
+	background-color: rgb(198, 252, 202);
+	color: rgb(51, 10, 17);
+}
+footer {
+	background-color: rgb(129, 198, 243);
+	color: rgb(51, 10, 17);
+}
+
+footer label {
+	color: rgb(44, 40, 109);
+}
+
+#full-width-image {
+	min-height: 550px;
+    background-size: cover;
+}
+
+#full-width-image .grid-x {
+	min-height: 550px;
+}
+
+nav a {
+	padding: 30px 0;
+	display: block;
+}
+
+.home-page #full-width-image {
+	background-image: url("../images/three-hens.jpeg");
+}
+
+
+@media only screen and (max-width: 300px) {
+	
+	#full-width-image {
+		min-height: 200px;
+    	background-size: cover;
+	}
+
+	#full-width-image .grid-x {
+		min-height: 200px;
+	}
+	
+}
+
+@media only screen and (min-width: 301px) and (max-width: 640px) {
+	
+	#full-width-image {
+		min-height: 330px;
+	}
+
+	#full-width-image .grid-x {
+		min-height: 330px;
+	}
+	
+}
+

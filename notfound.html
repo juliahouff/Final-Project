@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+<title>Site Not Found</title>
+
+<!-- This sets the 'viewport' to scale correctly on a mobile device -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<!-- This loads Foundation CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.2/css/foundation.min.css" rel="stylesheet" type="text/css">
+	
+<!-- This loads our custom CSS file after the foundation CSS -->
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+<!-- This loads jQuery JavaScript (this must be before the Foundation js below) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- This loads Foundation JavaScript (optional) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.2/js/foundation.min.js"></script>
+
+<!-- Finally, this starts foundation for everything on the page (optional) -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).foundation();
+	});
+
+	<customErrors defaultRedirect="GenericError.htm" mode="On">
+          <error statusCode="404" redirect="notfound.htm"/>
+      </customErrors>
+</script>
+</head>
+
+<div id="full-width-image">
+    <div class="grid-container">
+       <div class="grid-x grid-margin-x grid-margin-y grid-padding-y align-middle">
+           <div class="cell medium-11">
+               <h1 class="show-for-sr">Sorry! This page cannot be found.</h1>
+                       
+                       <img src="images/chicken-logo.png" width="300px" alt="Employee giving a ride"/>
+               
+           </div>
+
+           <h1>Sorry! This page cannot be found.</h1>
